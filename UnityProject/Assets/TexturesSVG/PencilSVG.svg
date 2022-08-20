@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="4000mm"
+   height="4000mm"
+   viewBox="0 0 4000 4000"
+   version="1.1"
+   id="svg3123"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="PencilSVG.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3125"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.048607166"
+     inkscape:rotation="-32"
+     inkscape:cx="10592.306"
+     inkscape:cy="11917.959"
+     inkscape:window-width="3840"
+     inkscape:window-height="2066"
+     inkscape:window-x="1609"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs3120" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="star"
+       style="fill:#f2bf98;fill-opacity:0.856102;stroke:none;stroke-width:120"
+       id="path3256"
+       inkscape:flatsided="false"
+       sodipodi:sides="3"
+       sodipodi:cx="9761.9355"
+       sodipodi:cy="576.04675"
+       sodipodi:r1="2456.0955"
+       sodipodi:r2="1228.0477"
+       sodipodi:arg1="2.6198491"
+       sodipodi:arg2="3.6670467"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 7632.6198,1800.1462 8699.556,-39.949173 9766.4921,-1880.0445 10826.593,-36.002938 11886.695,1808.0385 9759.6572,1804.0924 Z"
+       transform="matrix(0.26458333,0,0,0.43284553,-1819.464,1013.7688)"
+       inkscape:transform-center-x="0.60282682"
+       inkscape:transform-center-y="-264.92299" />
+    <path
+       sodipodi:type="star"
+       style="fill:#000000;fill-opacity:0.856102;stroke:none;stroke-width:120"
+       id="path4596"
+       inkscape:flatsided="false"
+       sodipodi:sides="3"
+       sodipodi:cx="7108.0054"
+       sodipodi:cy="1409.2572"
+       sodipodi:r1="1324.89"
+       sodipodi:r2="662.44501"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.5707963"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 8255.3938,2071.7022 -1147.3884,0 -1147.3884,0 573.6942,-993.6675 573.6942,-993.667513 573.6942,993.667513 z"
+       transform="matrix(0.17059023,0,0,0.26384435,-447.9693,177.74014)"
+       inkscape:transform-center-x="3.6027863e-05"
+       inkscape:transform-center-y="-87.391184" />
+    <rect
+       style="fill:#ffcc00;fill-opacity:0.856102;stroke:none;stroke-width:31.75"
+       id="rect4722"
+       width="705.62817"
+       height="1597.9714"
+       x="1583.5404"
+       y="297.80038" />
+    <rect
+       style="fill:#000000;fill-opacity:0.856102;stroke:none;stroke-width:31.75"
+       id="rect4848"
+       width="938.78027"
+       height="1614.6123"
+       x="2811.8008"
+       y="445.44839"
+       inkscape:export-filename="C:\Users\tkore\OneDrive\unityprojects\IsingGame\Assets\Textures\Pencil.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4" />
+  </g>
+</svg>

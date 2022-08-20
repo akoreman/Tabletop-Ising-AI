@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1661027201",
+        "python_version": "3.7.12 | packaged by conda-forge | (default, Oct 26 2021, 05:35:01) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\tkore\\anaconda3\\envs\\ml-agents\\Scripts\\mlagents-learn ball_config.yaml --force",
+        "mlagents_version": "0.26.0",
+        "mlagents_envs_version": "0.26.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.6",
+        "end_time_seconds": "1661027229"
+    },
+    "total": 28.575906399999997,
+    "count": 1,
+    "self": 0.008686900000000719,
+    "children": {
+        "run_training.setup": {
+            "total": 0.06534390000000001,
+            "count": 1,
+            "self": 0.06534390000000001
+        },
+        "TrainerController.start_learning": {
+            "total": 28.501875599999998,
+            "count": 1,
+            "self": 0.0003513000000019417,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 28.5015117,
+                    "count": 1,
+                    "self": 28.5015117
+                },
+                "trainer_threads": {
+                    "total": 9.999999974752427e-07,
+                    "count": 1,
+                    "self": 9.999999974752427e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 1.160000000055561e-05,
+                    "count": 1,
+                    "self": 1.160000000055561e-05
+                }
+            }
+        }
+    }
+}

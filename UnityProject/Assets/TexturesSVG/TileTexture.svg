@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="2000"
+   height="2000"
+   viewBox="0 0 529.16665 529.16668"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="TileTexture.svg"
+   inkscape:export-filename="C:\Users\tkore\OneDrive\unityprojects\IsingGame\Assets\Textures\TileTexture.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="true"
+     units="px"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-bbox="true"
+     inkscape:object-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="200.81833"
+     inkscape:cy="680.23672"
+     inkscape:window-width="3840"
+     inkscape:window-height="2066"
+     inkscape:window-x="1609"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid645" />
+    <sodipodi:guide
+       position="150.8125,395.55208"
+       orientation="0.70710724,0.70710632"
+       id="guide14252" />
+    <sodipodi:guide
+       position="158.74999,396.87501"
+       orientation="0,-1"
+       id="guide14382" />
+    <sodipodi:guide
+       position="195.79166,394.22918"
+       orientation="1,0"
+       id="guide14384" />
+    <sodipodi:guide
+       position="214.31249,429.94793"
+       orientation="1,0"
+       id="guide14386" />
+    <sodipodi:guide
+       position="218.28125,415.39583"
+       orientation="0,-1"
+       id="guide14388" />
+    <sodipodi:guide
+       position="183.88542,378.35417"
+       orientation="0,-1"
+       id="guide14390" />
+    <sodipodi:guide
+       position="232.83333,359.83334"
+       orientation="1,0"
+       id="guide14414" />
+    <sodipodi:guide
+       position="214.31248,433.91668"
+       orientation="0,-1"
+       id="guide14416" />
+    <sodipodi:guide
+       position="224.89583,359.83334"
+       orientation="0,-1"
+       id="guide14418" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#cccccc;stroke-width:0.264583"
+       id="rect213"
+       width="529.16669"
+       height="529.16669"
+       x="0"
+       y="0" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-3-5"
+       cx="164.04167"
+       cy="128.32292"
+       rx="5.6301665"
+       ry="5.6301646" />
+    <rect
+       style="fill:#b3b3b3;stroke-width:0.264583"
+       id="rect55"
+       width="264.58334"
+       height="264.58334"
+       x="0"
+       y="0" />
+    <rect
+       style="fill:#4d4d4d;stroke-width:0.187088"
+       id="rect393"
+       width="13.229167"
+       height="264.58334"
+       x="2.8421709e-14"
+       y="0" />
+    <rect
+       style="fill:#4d4d4d;stroke-width:0.187088"
+       id="rect393-1"
+       width="13.229167"
+       height="264.58334"
+       x="251.35417"
+       y="0" />
+    <rect
+       style="fill:#4d4d4d;stroke-width:0.264583"
+       id="rect541"
+       width="264.58334"
+       height="13.229167"
+       x="2.8421709e-14"
+       y="0" />
+    <rect
+       style="fill:#4d4d4d;stroke-width:0.264583"
+       id="rect541-2"
+       width="264.58334"
+       height="13.229167"
+       x="7.6293945e-06"
+       y="251.35417" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:13.22916667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 5.2916633,5.2916633 259.29167,259.29167"
+       id="path2673" />
+    <path
+       style="fill:#4d4d4d;stroke:#000000;stroke-width:13.22916667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1;opacity:1"
+       d="M 259.29166,5.2916667 5.2916667,259.29166"
+       id="path4285" />
+    <path
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke-width:22.73000021;stroke-miterlimit:4;stroke-dasharray:none;stroke:none;stroke-opacity:1"
+       d="M 20.11509,979.56012 2.7296513,962.17027 233.89556,731.00472 465.06147,499.83912 233.89353,268.67085 2.7255862,37.502576 20.116449,20.116114 37.507311,2.7296513 268.67289,233.89556 499.83848,465.06147 731.00676,233.89353 962.175,2.7255862 979.67495,20.229947 997.1749,37.734307 766.0093,268.9002 534.84374,500.0661 766.01007,731.23275 997.17635,962.39935 979.78787,979.78787 962.39935,997.17635 731.23275,766.01007 500.0661,534.84374 269.01266,765.89687 C 141.93327,892.97608 37.856021,996.94996 37.729879,996.94996 c -0.126143,0 -8.052797,-7.82544 -17.614789,-17.38984 z"
+       id="path6083"
+       transform="scale(0.26458333)" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke-width:22.73;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6276"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="480"
+       sodipodi:cy="70"
+       sodipodi:r1="370"
+       sodipodi:r2="185"
+       sodipodi:arg1="1.5707963"
+       sodipodi:arg2="2.6179939"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 480.00001,440 -320.42941,-554.99999 640.85879,-2e-5 z"
+       transform="matrix(0.32202881,0,0,0.18592342,-22.282163,37.256195)"
+       inkscape:transform-center-y="17.197917"
+       inkscape:transform-center-x="1.7490201e-06" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke-width:22.73;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6276-8"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="480"
+       sodipodi:cy="70"
+       sodipodi:r1="370"
+       sodipodi:r2="185"
+       sodipodi:arg1="1.5707963"
+       sodipodi:arg2="2.6179939"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0,0.32202881,-0.18592342,0,227.32714,-22.282166)"
+       inkscape:transform-center-y="-2.2356575e-06"
+       inkscape:transform-center-x="17.197915"
+       d="m 480.00001,440 -320.42941,-554.99999 640.85879,-2e-5 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke-width:22.73;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6276-5"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="480"
+       sodipodi:cy="70"
+       sodipodi:r1="370"
+       sodipodi:r2="185"
+       sodipodi:arg1="1.5707963"
+       sodipodi:arg2="2.6179939"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(0,-0.32202881,0.18592342,0,37.256195,286.8655)"
+       inkscape:transform-center-y="-5.7643425e-06"
+       inkscape:transform-center-x="-17.19792"
+       d="m 480.00001,440 -320.42941,-554.99999 640.85879,-2e-5 z" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke-width:22.73;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path6276-2"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="480"
+       sodipodi:cy="70"
+       sodipodi:r1="370"
+       sodipodi:r2="185"
+       sodipodi:arg1="1.5707963"
+       sodipodi:arg2="2.6179939"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       transform="matrix(-0.32202881,0,0,-0.18592342,286.8655,227.32714)"
+       inkscape:transform-center-y="-17.197914"
+       d="m 480.00001,440 -320.42941,-554.99999 640.85879,-2e-5 z" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01"
+       cx="158.75"
+       cy="132.29167"
+       rx="5.6301665"
+       ry="5.6301646" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2"
+       cx="214.3125"
+       cy="150.8125"
+       rx="5.6301665"
+       ry="5.6301646" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-0"
+       cx="214.3125"
+       cy="113.77083"
+       rx="5.6301665"
+       ry="5.6301646" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-0-4"
+       cx="232.83333"
+       cy="95.25"
+       rx="5.6301665"
+       ry="5.6301646" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-0-9"
+       cx="232.83333"
+       cy="132.29167"
+       rx="5.6301665"
+       ry="5.6301646" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-0-7"
+       cx="232.83333"
+       cy="169.33333"
+       rx="5.6301665"
+       ry="5.6301646" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-1"
+       cx="232.83333"
+       cy="206.375"
+       rx="5.6301665"
+       ry="5.6301646" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-6"
+       cx="177.27083"
+       cy="150.8125"
+       rx="5.6301665"
+       ry="5.6301646" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-2"
+       cx="214.3125"
+       cy="187.85417"
+       rx="5.6301665"
+       ry="5.6301646" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-25"
+       cx="195.79166"
+       cy="169.33333"
+       rx="5.6301665"
+       ry="5.6301646" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-7"
+       cx="195.79166"
+       cy="95.25"
+       rx="5.6301665"
+       ry="5.6301646" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-3"
+       cx="177.27083"
+       cy="113.77084"
+       rx="5.6301665"
+       ry="5.6301646" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-3-0"
+       cx="232.83333"
+       cy="58.208332"
+       rx="5.6301665"
+       ry="5.6301646" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-3-7"
+       cx="214.3125"
+       cy="76.729164"
+       rx="5.6301665"
+       ry="5.6301646" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-3-1"
+       cx="195.79167"
+       cy="132.29167"
+       rx="5.6301665"
+       ry="5.6301646" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-8"
+       cx="158.75"
+       cy="-132.29167"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="rotate(90)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-05"
+       cx="214.3125"
+       cy="-113.77084"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="rotate(90)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-0-2"
+       cx="214.3125"
+       cy="-150.81252"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="rotate(90)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-0-4-9"
+       cx="232.83331"
+       cy="-169.33334"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="rotate(90)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-0-9-7"
+       cx="232.83331"
+       cy="-132.29167"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="rotate(90)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-0-7-4"
+       cx="232.83331"
+       cy="-95.25"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="rotate(90)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-1-3"
+       cx="232.83331"
+       cy="-58.208305"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="rotate(90)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-6-0"
+       cx="177.27081"
+       cy="-113.77084"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="rotate(90)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-2-2"
+       cx="214.3125"
+       cy="-76.729149"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="rotate(90)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-25-72"
+       cx="195.79166"
+       cy="-95.25"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="rotate(90)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-7-8"
+       cx="195.79166"
+       cy="-169.33334"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="rotate(90)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-3-4"
+       cx="177.27081"
+       cy="-150.8125"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="rotate(90)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-3-0-4"
+       cx="232.83331"
+       cy="-206.37502"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="rotate(90)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-3-7-9"
+       cx="214.3125"
+       cy="-187.85417"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="rotate(90)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-3-1-0"
+       cx="195.79166"
+       cy="-132.29167"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="rotate(90)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-8-1"
+       cx="-105.83334"
+       cy="-132.29167"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)"
+       inkscape:export-filename="C:\Users\tkore\OneDrive\unityprojects\IsingGame\Assets\Textures\TileTexture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-05-9"
+       cx="-50.270832"
+       cy="-113.77084"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)"
+       inkscape:export-filename="C:\Users\tkore\OneDrive\unityprojects\IsingGame\Assets\Textures\TileTexture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-0-2-6"
+       cx="-50.270832"
+       cy="-150.8125"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)"
+       inkscape:export-filename="C:\Users\tkore\OneDrive\unityprojects\IsingGame\Assets\Textures\TileTexture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-0-4-9-9"
+       cx="-31.750019"
+       cy="-169.33333"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)"
+       inkscape:export-filename="C:\Users\tkore\OneDrive\unityprojects\IsingGame\Assets\Textures\TileTexture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-0-9-7-7"
+       cx="-31.750019"
+       cy="-132.29167"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)"
+       inkscape:export-filename="C:\Users\tkore\OneDrive\unityprojects\IsingGame\Assets\Textures\TileTexture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-0-7-4-5"
+       cx="-31.750019"
+       cy="-95.249992"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)"
+       inkscape:export-filename="C:\Users\tkore\OneDrive\unityprojects\IsingGame\Assets\Textures\TileTexture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-1-3-4"
+       cx="-31.750019"
+       cy="-58.208294"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)"
+       inkscape:export-filename="C:\Users\tkore\OneDrive\unityprojects\IsingGame\Assets\Textures\TileTexture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-6-0-4"
+       cx="-87.312515"
+       cy="-113.77084"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)"
+       inkscape:export-filename="C:\Users\tkore\OneDrive\unityprojects\IsingGame\Assets\Textures\TileTexture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-2-2-4"
+       cx="-50.270832"
+       cy="-76.729141"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)"
+       inkscape:export-filename="C:\Users\tkore\OneDrive\unityprojects\IsingGame\Assets\Textures\TileTexture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-25-72-4"
+       cx="-68.791672"
+       cy="-95.249992"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)"
+       inkscape:export-filename="C:\Users\tkore\OneDrive\unityprojects\IsingGame\Assets\Textures\TileTexture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-7-8-5"
+       cx="-68.791672"
+       cy="-169.33333"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)"
+       inkscape:export-filename="C:\Users\tkore\OneDrive\unityprojects\IsingGame\Assets\Textures\TileTexture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-3-4-2"
+       cx="-87.312515"
+       cy="-150.81248"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)"
+       inkscape:export-filename="C:\Users\tkore\OneDrive\unityprojects\IsingGame\Assets\Textures\TileTexture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-3-0-4-7"
+       cx="-31.750019"
+       cy="-206.375"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)"
+       inkscape:export-filename="C:\Users\tkore\OneDrive\unityprojects\IsingGame\Assets\Textures\TileTexture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-3-7-9-4"
+       cx="-50.270832"
+       cy="-187.85416"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)"
+       inkscape:export-filename="C:\Users\tkore\OneDrive\unityprojects\IsingGame\Assets\Textures\TileTexture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-3-1-0-3"
+       cx="-68.791672"
+       cy="-132.29167"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)"
+       inkscape:export-filename="C:\Users\tkore\OneDrive\unityprojects\IsingGame\Assets\Textures\TileTexture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-29"
+       cx="-132.29167"
+       cy="-105.83334"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-5"
+       cx="-150.8125"
+       cy="-50.27084"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-0-5"
+       cx="-113.77082"
+       cy="-50.27084"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-0-4-7"
+       cx="-95.249985"
+       cy="-31.750025"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-0-9-4"
+       cx="-132.29167"
+       cy="-31.750025"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-0-7-2"
+       cx="-169.33333"
+       cy="-31.750025"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-1-5"
+       cx="-206.375"
+       cy="-31.750025"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-6-7"
+       cx="-150.8125"
+       cy="-87.312508"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-2-6"
+       cx="-187.8542"
+       cy="-50.27084"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-25-7"
+       cx="-169.33333"
+       cy="-68.791679"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-2-7-6"
+       cx="-95.249985"
+       cy="-68.791679"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-3-03"
+       cx="-113.77082"
+       cy="-87.312508"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-3-0-8"
+       cx="-58.208317"
+       cy="-31.750025"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-3-7-8"
+       cx="-76.729141"
+       cy="-50.27084"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)" />
+    <ellipse
+       style="fill:#cccccc;fill-opacity:1;stroke:#cccccc;stroke-width:1.96884;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path10757-01-3-1-8"
+       cx="-132.29167"
+       cy="-68.791664"
+       rx="5.6301665"
+       ry="5.6301646"
+       transform="matrix(0,-1,-1,0,0,0)" />
+  </g>
+</svg>

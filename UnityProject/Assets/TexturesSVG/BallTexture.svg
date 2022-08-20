@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1000"
+   height="1000"
+   viewBox="0 0 264.58333 264.58334"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="C:\Users\tkore\unityprojects\IsingGame\Assets\Textures\YellowStripesTexture.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="BallTexture.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="true"
+     units="px"
+     inkscape:snap-global="true"
+     inkscape:zoom="0.71236301"
+     inkscape:cx="257.59339"
+     inkscape:cy="436.57517"
+     inkscape:window-width="3840"
+     inkscape:window-height="2066"
+     inkscape:window-x="1609"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid540" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="powerstroke"
+       id="path-effect659"
+       is_visible="true"
+       lpeversion="1"
+       offset_points="0,4.99214"
+       not_jump="false"
+       sort_points="true"
+       interpolator_type="CubicBezierJohan"
+       interpolator_beta="0.2"
+       start_linecap_type="zerowidth"
+       linejoin_type="extrp_arc"
+       miter_limit="4"
+       scale_width="1"
+       end_linecap_type="zerowidth" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#0000ff;stroke-width:0.264583"
+       id="rect143"
+       width="132.29167"
+       height="264.58334"
+       x="-3.3584612e-07"
+       y="-1.110223e-16" />
+    <rect
+       style="fill:#0000ff;stroke-width:0.264583"
+       id="rect275"
+       width="132.29167"
+       height="264.58334"
+       x="132.29167"
+       y="-7.1054274e-15"
+       inkscape:export-filename="C:\Users\tkore\unityprojects\IsingGame\Assets\Textures\YellowStripesTexture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:31.7500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -10.583333,137.58333 275.16665,-5.2916667"
+       id="path1795" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:31.7500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -10.583333,71.437498 232.83333,-50.270842"
+       id="path1990" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:31.7500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 0,264.58333 319.70486,111.125"
+       id="path2220" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:31.7500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -10.583333,203.72917 291.04167,52.916643"
+       id="path2415" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:31.7500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -5.2916667,330.62333 328.08334,170.60333"
+       id="path2530"
+       inkscape:export-filename="C:\Users\tkore\OneDrive\unityprojects\IsingGame\Assets\Textures\BallTexture.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:31.7500002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -15.875,8.2550004 132.29166,-68.791666"
+       id="path2645" />
+  </g>
+</svg>
