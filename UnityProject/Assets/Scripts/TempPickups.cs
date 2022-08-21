@@ -64,4 +64,12 @@ public class TempPickups : MonoBehaviour
         pbcPickup.name = "pbcpickup";
     }
 
+    public void shufflePickupPositions()
+    {
+        Destroy(upPickup.gameObject);
+        Destroy(downPickup.gameObject);
+
+        placeUpPickup(Random.Range(0, gameState.GetComponent<GameState>().nX), Random.Range(0, gameState.GetComponent<GameState>().nY));
+        placeDownPickup(Random.Range(0, gameState.GetComponent<GameState>().nX), Random.Range(0, gameState.GetComponent<GameState>().nY));
+    }
 }

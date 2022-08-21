@@ -7,10 +7,12 @@ using Unity.MLAgents.Actuators;
 
 public class MLAgent : Agent
 {
-    public float forceMultiplier = 10;
+    public float forceMultiplier = 1f;
 
     GameObject gameState;
     GameObject pickups;
+    GameObject ball;
+    GameObject levelGeometry;
 
     Rigidbody rigidBody;
 
@@ -20,6 +22,8 @@ public class MLAgent : Agent
 
         gameState = GameObject.Find("Game State");
         pickups = GameObject.Find("Pickups");
+        ball = GameObject.Find("Ball");
+        levelGeometry = GameObject.Find("LevelGeometry");
     }
 
     public override void OnEpisodeBegin()
@@ -43,6 +47,10 @@ public class MLAgent : Agent
 
         sensor.AddObservation(pickups.GetComponent<TempPickups>().downPickup.transform.position.x);
         sensor.AddObservation(pickups.GetComponent<TempPickups>().downPickup.transform.position.z);
+
+        for (int i = 0; i < gameState.GetComponent<GameState>().nX; i++)
+            for (int j = 0; j < gameState.GetComponent<GameState>().nY; j++)
+                sensor.AddObservation(levelGeometry.GetComponent<TileHandler>().tileList[i,j].tile.localPosition.y);
     }
 
     public override void OnActionReceived(ActionBuffers actionBuffers)
@@ -51,21 +59,30 @@ public class MLAgent : Agent
 
         controlSignal.x = actionBuffers.ContinuousActions[0];
         controlSignal.z = actionBuffers.ContinuousActions[1];
-        gameState.GetComponent<GameState>().wantJump = actionBuffers.ContinuousActions[2] > 0.5 ? true : false;
-
+        /*
+        if (actionBuffers.ContinuousActions[2] > 0.5)
+            ball.GetComponent<BallBehaviour>().pressJumpButton();
+        */
         rigidBody.AddForce(controlSignal * forceMultiplier);
+
+        if (StepCount > 1000)
+        {
+            EndWithReward(gameState.GetComponent<GameState>().Score);
+            //EndWithReward(StepCount);
+        }
 
         // when fall off platform
         if (this.transform.localPosition.y < -1.95f)
         {
             EndWithReward(gameState.GetComponent<GameState>().Score);
+            //EndWithReward(StepCount);
         }
     }
 
     void EndWithReward(float reward)
     {
         SetReward(reward);
-
+        print(reward);
         EndEpisode();
     }
 

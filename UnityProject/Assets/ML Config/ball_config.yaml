@@ -12,8 +12,8 @@ behaviors:
       learning_rate_schedule: linear
     network_settings:
       normalize: false
-      hidden_units: 128
-      num_layers: 3
+      hidden_units: 256
+      num_layers: 5
     reward_signals:
       extrinsic:
         gamma: 0.99

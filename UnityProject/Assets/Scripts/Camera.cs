@@ -45,6 +45,7 @@ public class Camera : MonoBehaviour
     //Move and rotate the camera after the rest of each frame has been done.
     void LateUpdate()
     {
+        
         if (gameState.GetComponent<GameState>().gameAlive)
         {
             UpdateFocusPoint();
@@ -63,6 +64,7 @@ public class Camera : MonoBehaviour
                 this.GetComponentInChildren<Canvas>().enabled = true;
             }
         }
+        
     }
 
     //Make the cameras focus lazily follow the ball.

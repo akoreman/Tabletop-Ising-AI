@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class BallBehaviour : MonoBehaviour
 {
     [SerializeField]
-    Transform ball;
+    public Transform ball;
 
     [SerializeField]
     float accScaling = 1f;
@@ -72,16 +72,24 @@ public class BallBehaviour : MonoBehaviour
         }
 
         // Set that the player wants to jump, jump itself is handled in FixedUpdate(). 
-        if (Input.GetKeyDown("space") && onGround)
-            gameState.GetComponent<GameState>().wantJump = true;
+        if (Input.GetKeyDown("space"))
+            pressJumpButton();
 
         if (ball.localPosition.y < -1.95f)
         {
             gameState.GetComponent<GameState>().gameAlive = false;
-
+            
             ball.gameObject.SetActive(false);
+
+            gameState.GetComponent<GameState>().resetGame();
         }
 
+    }
+
+    public void pressJumpButton()
+    {
+        if (onGround)
+            gameState.GetComponent<GameState>().wantJump = true;
     }
 
     void FixedUpdate()
@@ -115,7 +123,7 @@ public class BallBehaviour : MonoBehaviour
 
     void OnCollisionStay(Collision collider)
     {
-        if (collider.transform.name != "uppickup" & collider.transform.name != "downpickup")
+        if (collider.transform.name != "uppickup" & collider.transform.name != "downpickup" & collider.contacts[0].normal.y == 1.0f)
             onGround = true;
     }
 
@@ -231,8 +239,6 @@ public class BallBehaviour : MonoBehaviour
 
         if (pbcOnScreen && fieldOnScreen)
             return;
-
-        
 
         if (pbcOnScreen && !fieldOnScreen)
         {

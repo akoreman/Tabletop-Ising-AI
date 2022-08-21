@@ -19,6 +19,7 @@ public class GameState : MonoBehaviour
 
     public int numFlips;
 
+    public float startTemperature;
     public float Temperature;
 
     public int Score;
@@ -31,6 +32,17 @@ public class GameState : MonoBehaviour
 
     public bool wantJump;
 
+    GameObject pickups;
+    GameObject levelGeometry;
+    GameObject ball;
+
+    void Awake()
+    {
+        pickups = GameObject.Find("Pickups");
+        levelGeometry = GameObject.Find("LevelGeometry");
+        ball = GameObject.Find("Ball");
+    }
+
     public void setGlobalParams(int nX, int nY, float sizeX, float sizeY, int numFlips, float startTemperature)
     {
         this.nX = nX;
@@ -39,6 +51,7 @@ public class GameState : MonoBehaviour
         this.sizeY = sizeY;
         this.numFlips = numFlips;
         this.Temperature = startTemperature;
+        this.startTemperature = startTemperature;
         this.Score = 0;
         this.numPBC = 0;
         this.gameAlive = true;
@@ -54,7 +67,27 @@ public class GameState : MonoBehaviour
 
     public void resetGame()
     {
-        SceneManager.LoadScene("MainGame");
+        this.Temperature = startTemperature;
+        this.Score = 0;
+        this.numPBC = 0;
+        this.gameAlive = true;
+        this.consectUp = 0;
+
+        availablePairs = new int[nX + nY];
+
+        for (int i = 0; i < nX + nY; i++)
+        {
+            this.availablePairs[i] = i;
+        }
+
+        //Destroy(pickups.GetComponent<TempPickups>().upPickup.gameObject);
+        //Destroy(pickups.GetComponent<TempPickups>().downPickup.gameObject);
+        levelGeometry.GetComponent<TileHandler>().SetAllUp(2.0f);
+
+        ball.GetComponent<BallBehaviour>().ball.gameObject.SetActive(true);
+        ball.GetComponent<BallBehaviour>().ball.localPosition = new Vector3(0f, 0f, 0f);
+
+        pickups.GetComponent<TempPickups>().shufflePickupPositions();
     }
 
 }

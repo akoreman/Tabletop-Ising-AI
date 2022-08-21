@@ -335,11 +335,10 @@ public class TileHandler : MonoBehaviour
                 if (!wallList[i].isArch)
                     wallList[i].lineRenderer.SetPosition(j, new Vector3(j * 0.2f, Random.Range(-0.15f, 0.15f), 0f));       
             
-
-        }
+    }
 
     //Set all the tiles back up.
-    public void SetAllUp()
+    public void SetAllUp(float yVelocity = 0.5f)
     {
         int nX = gameState.GetComponent<GameState>().nX;
         int nY = gameState.GetComponent<GameState>().nY;
@@ -349,7 +348,7 @@ public class TileHandler : MonoBehaviour
                 if (tileList[i,j].State != 1)
                 {
                     tileList[i, j].State = 1;
-                    tileList[i,j].Velocity = new Vector3(0f, 0.5f, 0f);
+                    tileList[i,j].Velocity = new Vector3(0f, yVelocity, 0f);
                 }
     }
 

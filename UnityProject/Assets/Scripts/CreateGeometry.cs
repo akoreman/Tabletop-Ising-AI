@@ -57,9 +57,6 @@ public class CreateGeometry : MonoBehaviour
     
     void Update()
     {
-        if (!gameState.GetComponent<GameState>().gameAlive)// && Input.GetKeyDown("space"))
-            SceneManager.LoadScene("MainGame");
-
         if (Input.GetKeyDown("x") && gameState.GetComponent<GameState>().hasUpPickup)
         {
             GetComponent<TileHandler>().SetAllUp();
