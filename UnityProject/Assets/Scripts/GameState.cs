@@ -60,9 +60,7 @@ public class GameState : MonoBehaviour
         availablePairs = new int[nX + nY];
 
         for (int i = 0; i < nX + nY; i++)
-        {
             this.availablePairs[i] = i;
-        }
     }
 
     public void resetGame()
@@ -76,12 +74,8 @@ public class GameState : MonoBehaviour
         availablePairs = new int[nX + nY];
 
         for (int i = 0; i < nX + nY; i++)
-        {
             this.availablePairs[i] = i;
-        }
 
-        //Destroy(pickups.GetComponent<TempPickups>().upPickup.gameObject);
-        //Destroy(pickups.GetComponent<TempPickups>().downPickup.gameObject);
         levelGeometry.GetComponent<TileHandler>().SetAllUp(2.0f);
 
         ball.GetComponent<BallBehaviour>().ball.gameObject.SetActive(true);
@@ -89,5 +83,4 @@ public class GameState : MonoBehaviour
 
         pickups.GetComponent<TempPickups>().shufflePickupPositions();
     }
-
 }

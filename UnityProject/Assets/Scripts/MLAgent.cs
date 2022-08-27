@@ -65,7 +65,7 @@ public class MLAgent : Agent
         */
         rigidBody.AddForce(controlSignal * forceMultiplier);
 
-        if (StepCount > 1000)
+        if (StepCount > 5000)
         {
             EndWithReward(gameState.GetComponent<GameState>().Score);
             //EndWithReward(StepCount);
