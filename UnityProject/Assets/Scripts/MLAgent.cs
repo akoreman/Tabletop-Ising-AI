@@ -7,7 +7,7 @@ using Unity.MLAgents.Actuators;
 
 public class MLAgent : Agent
 {
-    public float forceMultiplier = 1f;
+    public float forceMultiplier = .2f;
 
     GameObject gameState;
     GameObject pickups;
@@ -42,11 +42,11 @@ public class MLAgent : Agent
         sensor.AddObservation(rigidBody.velocity.z);
 
         // temperature pickup positions
-        sensor.AddObservation(pickups.GetComponent<TempPickups>().upPickup.transform.position.x);
-        sensor.AddObservation(pickups.GetComponent<TempPickups>().upPickup.transform.position.z);
+        sensor.AddObservation(pickups.GetComponent<TempPickups>().upPickup.transform.localPosition.x);
+        sensor.AddObservation(pickups.GetComponent<TempPickups>().upPickup.transform.localPosition.z);
 
-        sensor.AddObservation(pickups.GetComponent<TempPickups>().downPickup.transform.position.x);
-        sensor.AddObservation(pickups.GetComponent<TempPickups>().downPickup.transform.position.z);
+        sensor.AddObservation(pickups.GetComponent<TempPickups>().downPickup.transform.localPosition.x);
+        sensor.AddObservation(pickups.GetComponent<TempPickups>().downPickup.transform.localPosition.z);
 
         for (int i = 0; i < gameState.GetComponent<GameState>().nX; i++)
             for (int j = 0; j < gameState.GetComponent<GameState>().nY; j++)
@@ -65,17 +65,27 @@ public class MLAgent : Agent
         */
         rigidBody.AddForce(controlSignal * forceMultiplier);
 
-        if (StepCount > 5000)
+        if (StepCount > 2500)
         {
-            EndWithReward(gameState.GetComponent<GameState>().Score);
-            //EndWithReward(StepCount);
+            //EndWithReward(gameState.GetComponent<GameState>().Score );
+            EndWithReward(0f);
+        }
+
+        if (Vector3.Distance(ball.transform.position, pickups.GetComponent<TempPickups>().upPickup.transform.position) < 1.0f)
+        {
+            EndWithReward(1.0f); 
+        }
+
+        if (Vector3.Distance(ball.transform.position, pickups.GetComponent<TempPickups>().downPickup.transform.position) < 1.0f)
+        {
+            EndWithReward(0f);
         }
 
         // when fall off platform
         if (this.transform.localPosition.y < -1.95f)
         {
-            EndWithReward(gameState.GetComponent<GameState>().Score);
-            //EndWithReward(StepCount);
+            //EndWithReward(gameState.GetComponent<GameState>().Score );
+            EndWithReward(0f);
         }
     }
 

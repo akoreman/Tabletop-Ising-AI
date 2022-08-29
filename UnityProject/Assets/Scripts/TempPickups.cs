@@ -34,15 +34,23 @@ public class TempPickups : MonoBehaviour
 
     public void placeUpPickup(int i, int j)
     {
+        if (upPickup)
+            Destroy(upPickup.gameObject);
+
         upPickup = Instantiate(upPrefab);
         upPickup.localPosition = levelGeometry.GetComponent<TileHandler>().getTileCoords(i, j) + new Vector3(0f,0.06f,0f);
+
         upPickup.name = "uppickup";
     }
 
     public void placeDownPickup(int i, int j)
     {
+        if (downPickup)
+            Destroy(downPickup.gameObject);
+
         downPickup = Instantiate(downPrefab);
-        downPickup.localPosition = levelGeometry.GetComponent<TileHandler>().getTileCoords(i, j) + new Vector3(0f, 0.06f, 0f); ;
+        downPickup.localPosition = levelGeometry.GetComponent<TileHandler>().getTileCoords(i, j) + new Vector3(0f, 0.06f, 0f); 
+
         downPickup.name = "downpickup";
     }
 
@@ -66,9 +74,6 @@ public class TempPickups : MonoBehaviour
 
     public void shufflePickupPositions()
     {
-        Destroy(upPickup.gameObject);
-        Destroy(downPickup.gameObject);
-
         placeUpPickup(Random.Range(0, gameState.GetComponent<GameState>().nX), Random.Range(0, gameState.GetComponent<GameState>().nY));
         placeDownPickup(Random.Range(0, gameState.GetComponent<GameState>().nX), Random.Range(0, gameState.GetComponent<GameState>().nY));
     }
