@@ -65,27 +65,30 @@ public class MLAgent : Agent
         */
         rigidBody.AddForce(controlSignal * forceMultiplier);
 
-        if (StepCount > 2500)
+        
+        if (StepCount > 10000)
         {
-            //EndWithReward(gameState.GetComponent<GameState>().Score );
-            EndWithReward(0f);
+            EndWithReward(gameState.GetComponent<GameState>().Score );
+            //EndWithReward(0f);
         }
-
+        
+        /*
         if (Vector3.Distance(ball.transform.position, pickups.GetComponent<TempPickups>().upPickup.transform.position) < 1.0f)
         {
-            EndWithReward(1.0f); 
+            EndWithReward(1.0f);
         }
 
         if (Vector3.Distance(ball.transform.position, pickups.GetComponent<TempPickups>().downPickup.transform.position) < 1.0f)
         {
             EndWithReward(0f);
         }
+        */
 
         // when fall off platform
         if (this.transform.localPosition.y < -1.95f)
         {
-            //EndWithReward(gameState.GetComponent<GameState>().Score );
-            EndWithReward(0f);
+            EndWithReward(gameState.GetComponent<GameState>().Score );
+            //EndWithReward(0f);
         }
     }
 
