@@ -34,11 +34,13 @@ public class MLAgent : Agent
     public override void CollectObservations(VectorSensor sensor)
     {
         // Agent positions
-        sensor.AddObservation(this.transform.localPosition);
+        sensor.AddObservation(this.transform.localPosition.x);
+        //sensor.AddObservation(this.transform.localPosition.y);
+        sensor.AddObservation(this.transform.localPosition.z);
 
         // agent velocity
         sensor.AddObservation(rigidBody.velocity.x);
-        sensor.AddObservation(rigidBody.velocity.y);
+        //sensor.AddObservation(rigidBody.velocity.y);
         sensor.AddObservation(rigidBody.velocity.z);
 
         // temperature pickup positions
@@ -47,10 +49,11 @@ public class MLAgent : Agent
 
         sensor.AddObservation(pickups.GetComponent<TempPickups>().downPickup.transform.localPosition.x);
         sensor.AddObservation(pickups.GetComponent<TempPickups>().downPickup.transform.localPosition.z);
-
+        /*
         for (int i = 0; i < gameState.GetComponent<GameState>().nX; i++)
             for (int j = 0; j < gameState.GetComponent<GameState>().nY; j++)
                 sensor.AddObservation(levelGeometry.GetComponent<TileHandler>().tileList[i,j].tile.localPosition.y);
+        */
     }
 
     public override void OnActionReceived(ActionBuffers actionBuffers)
@@ -65,30 +68,16 @@ public class MLAgent : Agent
         */
         rigidBody.AddForce(controlSignal * forceMultiplier);
 
-        
-        if (StepCount > 10000)
+        // End after N steps
+        if (StepCount > 5000)
         {
             EndWithReward(gameState.GetComponent<GameState>().Score );
-            //EndWithReward(0f);
         }
         
-        /*
-        if (Vector3.Distance(ball.transform.position, pickups.GetComponent<TempPickups>().upPickup.transform.position) < 1.0f)
-        {
-            EndWithReward(1.0f);
-        }
-
-        if (Vector3.Distance(ball.transform.position, pickups.GetComponent<TempPickups>().downPickup.transform.position) < 1.0f)
-        {
-            EndWithReward(0f);
-        }
-        */
-
-        // when fall off platform
+        // End when fallen off platform
         if (this.transform.localPosition.y < -1.95f)
         {
             EndWithReward(gameState.GetComponent<GameState>().Score );
-            //EndWithReward(0f);
         }
     }
 
