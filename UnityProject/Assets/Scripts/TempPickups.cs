@@ -105,9 +105,9 @@ public class TempPickups : MonoBehaviour
     {
         for (int i = 0; i < 4; i++)
         {
-            if (i == checkPickup) { continue; }
+            if (i == checkPickup || pickupArray[i] == null) { continue; }
 
-            if (pickupArray[checkPickup] == pickupArray[i]) { return true; }
+            if (pickupArray[checkPickup].localPosition == pickupArray[i].localPosition) { return true; }
         }
 
         return false;

@@ -71,20 +71,31 @@ public class MLAgent : Agent
         // End after N steps
         if (StepCount > 5000)
         {
-            EndWithReward(gameState.GetComponent<GameState>().Score );
+            print("ended after too many steps.");
+            EndWithReward(1, StepCount);
         }
-        
+
+        if (gameState.GetComponent<GameState>().Score > 20)
+        {
+            EndWithReward(gameState.GetComponent<GameState>().Score, StepCount);
+        }
+
+        if (gameState.GetComponent<GameState>().Score < 10)
+        {
+            EndWithReward(gameState.GetComponent<GameState>().Score, StepCount);
+        }
+
         // End when fallen off platform
         if (this.transform.localPosition.y < -1.95f)
         {
-            EndWithReward(gameState.GetComponent<GameState>().Score );
+            EndWithReward(gameState.GetComponent<GameState>().Score, 0 );
         }
     }
 
-    void EndWithReward(float reward)
+    void EndWithReward(float reward, int stepcount)
     {
-        SetReward(reward);
-        print(reward);
+        SetReward(reward - stepcount/(float) 5000);
+        print(reward - stepcount / (float)5000);
         EndEpisode();
     }
 

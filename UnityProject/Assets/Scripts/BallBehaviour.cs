@@ -159,7 +159,7 @@ public class BallBehaviour : MonoBehaviour
             int nY = gameState.GetComponent<GameState>().nY;
 
             Destroy(trigger.gameObject);
-            gameState.GetComponent<GameState>().Score += 0;
+            gameState.GetComponent<GameState>().Score -= 10;
             gameState.GetComponent<GameState>().Temperature = Mathf.Max(0.5f, gameState.GetComponent<GameState>().Temperature - 0.05f);
             Pickups.GetComponent<TempPickups>().placeDownPickup(Random.Range(0, nX), Random.Range(0, nY));
 

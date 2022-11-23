@@ -66,7 +66,7 @@ public class GameState : MonoBehaviour
     public void resetGame()
     {
         this.Temperature = startTemperature;
-        this.Score = 0;
+        this.Score = 10;
         this.numPBC = 0;
         this.gameAlive = true;
         this.consectUp = 0;
