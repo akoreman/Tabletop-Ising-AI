@@ -9,4 +9,7 @@ Train the model by running `mlagents-learn ball_config.yaml` in the assets/ML-co
 * Train the agent to find the red pickup on a small map with no moving platforms by using the game score as the reward.
 
 
+<img src="https://raw.github.com/akoreman/Tabletop-Ising-AI/main/images/gif.gif" width="400">
+
+
 
